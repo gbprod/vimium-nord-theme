@@ -29,6 +29,7 @@ div.internalVimiumHintMarker > .matchingCharacter {
 #vomnibar input {
   color: #d8dee9;
   background-color: #3b4252;
+  border: 1px solid #3b4252;
   box-shadow: none;
 }
 
@@ -40,6 +41,11 @@ div.internalVimiumHintMarker > .matchingCharacter {
 #vomnibar ul {
   margin: 0;
   background-color: #2e3440;
+}
+
+
+#vomnibar ul li {
+  border-bottom: 1px solid #434c5e;
 }
 
 #vomnibar ul li.vomnibarSelected {
